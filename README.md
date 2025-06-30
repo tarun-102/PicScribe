@@ -1,12 +1,22 @@
-# React + Vite
+# PicScribe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PicScribe is a simple web app where users can create an account, upload a photo, and write something about it using a basic text editor. The text editor supports bold and italic formatting.
 
-Currently, two official plugins are available:
+## Tools Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- Redux
+- Tailwind CSS
+- Appwrite
 
-## Expanding the ESLint configuration
+## How It Works
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Users can sign up and log in.
+- After login, they can upload a photo.
+- Users can write about the photo using the editor provided.
+- All data is managed using Appwrite as the backend.
+
+## Note
+
+Make sure to set your `.env` file with the correct Appwrite credentials. The `.env` file should not be pushed to GitHub.
+
