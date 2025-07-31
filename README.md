@@ -1,3 +1,5 @@
+live demo https://pic-scribe-git-main-taruns-projects-3e453764.vercel.app/
+
 # PicScribe
 
 PicScribe is a simple web app where users can create an account, upload a photo, and write something about it using a basic text editor. The text editor supports bold and italic formatting.
